@@ -15,8 +15,8 @@ entity Departments {
 }
  
 entity StoresToDepartments {
-   StoreID : String(4);
-   DepartmentID    : String(4);
+   Key StoreID : String(4);
+   Key DepartmentID    : String(4);
 }
  
 entity Batches : cuid, managed {
